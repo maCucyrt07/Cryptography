@@ -12,8 +12,11 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 number: associations.find(char)
 letter: associations[index]
-text = print(input("Enter a message: "))
-key = print(input("Enter the password: "))
-question = print(input("Enter e to encrypt, d to decrypt, or q to quit: "))
+text = (input("Enter a message: "))
+key = (input("Enter the password: "))
+question = (input("Enter e to encrypt, d to decrypt, or q to quit: "))
 
 if question = e: 
+        ord('A')
+        chr('65')
+        
