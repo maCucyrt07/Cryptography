@@ -14,5 +14,7 @@ text = (input("Enter a message: "))
 key = (input("Enter the password: "))
 question = (input("Enter e to encrypt, d to decrypt, or q to quit: "))
 
+for char in text:
+    print (associations.find(char))
 
         
