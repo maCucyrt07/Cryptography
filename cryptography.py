@@ -16,5 +16,9 @@ question = (input("Enter e to encrypt, d to decrypt, or q to quit: "))
 
 for char in text:
     print (associations.find(char))
+for char in key:
+    print (associations.find(char))
 
+(len(text))/(len(key))
+zip
         
