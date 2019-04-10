@@ -1,7 +1,7 @@
 """
 cryptography.py
-Author: <your name here>
-Credit: Andrew
+Author: MaCucyrt07
+Credit: Andrew, Google, Ella
 
 Assignment:
 
