@@ -17,19 +17,39 @@ while a == 7:
         a = 6
         
     for p in message:
-        if p == "e":
+        if p == "e": 
+            b = input("Message:")
+            c = input("Key:")
+            t = ''
+            while True:
+                t += c
+                if len(t) >= len(b):
+                    break
+            m = [associations.find(y) for y in b]
+            n = [associations.find(z) for z in t]
+            o = [m + n for m, n in zip(m, n)]
+            j = ''.join(associations[v % len(associations)] for v in o)
+            print(j)
         elif p == "d":
+            b = input("Message:")
+            c = input("Key:")
+            t = ''
+            while True:
+                t += c
+                if len(t) >= len(b):
+                    break
+            m = [associations.find(y) for y in b]
+            n = [associations.find(z) for z in t]
+            o = [m - n for m, n in zip(m, n)]
+            j = ''.join(associations[v % len(associations)] for v in o)
+            print(j)
         elif p == "q": 
             break
         else: 
-            print ("Did not understand command, try again."
+            print ("Did not understand command, try again.")
+            
 print ("Goodbye!")
     
-
-for char in text:
-    print (associations.find(char))
-for char in key:
-    print (associations.find(char))
 
 
         
