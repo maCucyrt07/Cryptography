@@ -18,8 +18,8 @@ while a == 7:
         
     for p in message:
         if p == "e": 
-            b = input("Message:")
-            c = input("Key:")
+            b = input("Message: ")
+            c = input("Key: ")
             t = ''
             while True:
                 t += c
@@ -31,8 +31,8 @@ while a == 7:
             j = ''.join(associations[v % len(associations)] for v in o)
             print(j)
         elif p == "d":
-            b = input("Message:")
-            c = input("Key:")
+            b = input("Message: ")
+            c = input("Key: ")
             t = ''
             while True:
                 t += c
